@@ -6,7 +6,7 @@
 // -3 -> 9
 // -7 -> 49
 
-Console.Write("Введите число ");
+Console.Write("Введите целое число ");
 int number = int.Parse(Console.ReadLine()!);
 int square = number*number;
 Console.WriteLine("Квадрат числа = " + square);
